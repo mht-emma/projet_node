@@ -11,9 +11,7 @@ if (Number.isNaN(x) || Number.isNaN(y)) return 0;
 return x + y; 
 } 
 
-function soustraction(a,b){
-return a-b;
-}
+
 
 if(require.main==module) {
 
