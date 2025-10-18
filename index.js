@@ -1,10 +1,11 @@
 //index.js (branche dev)
 console.log('Hello node');
-//une fonction qui additionne deux variables a et  b ->a+b
-function addition(a,b) {
-
-return a+b; 
-}
+// index.js (bugfix) – rendre addition plus robuste 
+function addition(a, b) { 
+const x = Number(a), y = Number(b); 
+if (Number.isNaN(x) || Number.isNaN(y)) return 0; 
+return x + y; 
+} 
 
 function soustraction(a,b){
 return a-b;
