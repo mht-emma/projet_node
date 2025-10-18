@@ -1,6 +1,7 @@
 //index.js (branche dev)
 console.log('Hello node');
 // index.js (bugfix) – rendre addition plus robuste 
+//modif depuis bugfix
 function addition(a, b) { 
 const x = Number(a), y = Number(b); 
 if (Number.isNaN(x) || Number.isNaN(y)) return 0; 
