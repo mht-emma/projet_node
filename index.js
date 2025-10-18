@@ -1,6 +1,6 @@
 //index.js (branche dev)
 console.log('Hello node');
-
+//une fonction qui additionne deux variables a et  b ->a+b
 function addition(a,b) {
 
 return a+b; 
