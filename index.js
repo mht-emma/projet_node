@@ -3,7 +3,7 @@ console.log('Hello node');
 // index.js (bugfix) – rendre addition plus robuste 
 
 //modif depuis bugfix
-
+//n
 
 function addition(a, b) { 
 const x = Number(a), y = Number(b); 
